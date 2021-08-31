@@ -1,0 +1,115 @@
+textarea:focus{
+  box-shadow: 0 0 0 0;
+  border: 1 solid #DCDCDC;
+  outline: 0;
+} 
+
+#correcao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 80vh;
+}
+
+#comentarios{
+  background-color: white;
+  width: 95%;
+  height: 80%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow-y: auto;
+  padding-bottom: 15px;
+}
+
+#comentarios::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+}
+
+#comentarios::-webkit-scrollbar-thumb{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sendMessage{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  border-top: solid 1px #C0C0C0;
+  background-color: #FFFF;
+  width: 95%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  align-items: center;
+}
+
+.divMensagem{
+  margin: 15px 10px 0 10px;
+  max-width: 93%;
+  min-height: 20px;
+}
+
+.direitaMensagem{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #332D52;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+}
+
+.esquerdaMensagem{
+  background-color: #696969;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+}
+
+.displayName{
+  font-size: 10px;
+  color: #D8BFD8;
+  margin: 0 5px 0 5px;
+}
+
+.messageText{
+  font-size: 13px;
+  color: white;
+  margin: 0 5px 0 5px;
+  width: 98%;
+  word-wrap: break-word;
+}
+
+.messageDate{
+  font-size: 9px;
+  color: #D8BFD8;
+  margin: 0 5px 0 5px;
+}
+.sendArea{
+  display: flex;
+  margin-top: 5px;
+  width: 95%;
+  height: 55px;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btnSendMessage{
+  margin-top: 5px;
+  width: 80px;
+  border: none;
+  border-radius: 3px;
+  outline-style: none;
+  background-color: #332D52;
+  color: white;
+  padding: 3px;
+  transition: 0.5s;
+}
+
+.btnSendMessage:hover{
+  box-shadow: 200px 200px 400px 200px rgba(234,236,253,0.15) inset;
+}

@@ -1,0 +1,56 @@
+body{
+  background-color: #E5E5E5;
+}
+
+#conteudoProjeto{
+  background-color: #E5E5E5;
+  height: 100vh;
+  width: 80%;
+  margin-left: 20%;
+}
+
+#anexarArquivo{
+  display: flex;
+  align-items: center;
+  height: 90px;
+  margin-top: 50px;
+}
+
+#btnAnexarTcc{
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  outline-style: none;
+  background-color: #332D52;
+  color: white;
+  padding: 8px;
+  transition: 0.5s;
+}
+
+#btnAnexarTcc:hover{
+  box-shadow: 200px 200px 400px 200px rgba(234,236,253,0.15) inset;
+}
+
+#conteudocorrecao{
+  display: flex;
+}
+
+#arquvio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 900px;
+  width: 70%;
+  padding-left: 10px;
+}
+
+#fraseSemArquivo{
+  font-size: 20px;
+}
+
+#arquivoTcc{
+  margin-right: 20px;
+}
