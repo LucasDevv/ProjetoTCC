@@ -5,7 +5,7 @@ import * as ReactBootStrap from 'react-bootstrap';
 import Api from '../api';
 import MenuLateral from '../home/menuLateral';
 import './visualizarArquivo.css';
-import '../home/newHome';
+import '../home/home';
 import Chat from './chat';
 import Globais from '../global';
 

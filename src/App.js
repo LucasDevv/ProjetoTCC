@@ -4,7 +4,7 @@ import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import Globais from './global';
 import Api from './api';
 import Login from './login/login';
-import Home from './home/newHome';
+import Home from './home/home';
 import AnexarTcc from './anexarArquivo/anexarArquivo';
 import VisualizarArquivo from './visualizarArquivo/visualizarArquivo';
 import Perfil from './perfil/perfil';
